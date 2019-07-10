@@ -130,7 +130,7 @@ class Assignment:
 
     def calculate_total_performance(self, start_date: np.datetime64, end_date: np.datetime64) -> pd.Series:
         """
-        Return a series with a currency performance from start_date to end_date
+        Return a series with a total performance from start_date to end_date
 
         Parameters
         -----------
@@ -146,7 +146,7 @@ class Assignment:
         p - prices
         c - exchange rates
         ptc - prices multiplied by exchange rates 
-        ptc0 - prices over the previous period multiplied by exchange rater
+        ptc0 - prices over the previous period multiplied by exchange rates
         w - weights
         tr - total return
         trs - weighted total return
